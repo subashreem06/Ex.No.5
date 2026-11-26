@@ -1,53 +1,46 @@
+# EXPERIMENT 5: Comparing Prompting Techniques Through Engineering Problem-Solving Scenarios
+---
 
+## Aim
+To investigate how different prompting techniques influence the quality of AI-generated solutions for an engineering problem by applying multiple prompt strategies to a **Website Intrusion Prediction using Machine Learning** project.
 
-# EXP 5: Comparing Prompting Techniques Through Engineering Problem-Solving Scenarios
+---
 
-# Aim:To compare different prompting techniques and evaluate their effectiveness in solving real-world engineering problems by using a problem selected from a student's 3rd-year or final-year project work. 
+## 1. Experiment Overview
+Prompt engineering allows an AI system to produce more useful and reliable responses by providing appropriate context, constraints, examples, roles, and instructions.
 
-### AI Tools Required: 
+In this experiment, the same cybersecurity problem is presented to an AI system using different prompting approaches. The generated responses are then compared based on:
+* Relevance
+* Technical accuracy
+* Completeness
+* Clarity
+* Depth
+* Feasibility
+* Practical usefulness
 
-# EXPERIMENT OVERVIEW
+The experiment demonstrates that the quality of an AI response depends not only on the problem itself, but also on how the problem is communicated through the prompt.
 
-In this experiment, each student/team selects a genuine problem from their ongoing or completed 3rd-year or final-year engineering project.
-The same engineering problem is given to an AI system using different prompting techniques. Students then compare the responses based on relevance, accuracy, completeness, clarity, feasibility and usefulness.
-The purpose is not simply to obtain an AI-generated answer. Students must analyse how changing the prompting technique changes the quality of the solution.
+---
 
-EXPERIMENT PROCEDURE
-Step 1 – Select the Engineering Problem
-Choose one genuine problem from the student's 3rd-year or final-year project.
-Step 2 – Write the Base Prompt
-Write a simple prompt describing the engineering problem without using advanced prompting techniques.
-Step 3 – Apply Different Prompting Techniques
-Rewrite the same problem using at least four different prompting techniques.
-For example:
-Technique 1 – Straightforward Prompt
-Suggest a method to detect crop diseases using computer vision.structure.
-Run Experiments with ChatGPT:
-Input the naïve prompt for each scenario and record the generated response.
-Then input the corresponding basic prompt and capture that response.
-Repeat this process for all selected scenarios to gather a full set of results.
-Evaluate Responses : 
-	Compare how ChatGPT performs when given naïve versus basic prompts and analyze the output based on Quality,Accuracy and Depth. Also analyse does ChatGPT consistently provide better results with basic prompts? Are there scenarios where naïve prompts work equally well?
-Deliverables:
-A table comparing ChatGPT's responses to naïve and basic prompts across all scenarios.
-Analysis of how prompt clarity impacts the quality, accuracy, and depth of ChatGPT’s outputs.
-Summary of findings with insights on how to structure prompts for optimal results when using ChatGPT.
+## 2. Selected Engineering Problem
 
-#**STUDENT SUBMISSION FORMAT**
-Each student/team should submit:
-Project title and problem statement
-Selected engineering scenario
-Base prompt
-Minimum four improved prompts using different techniques
-AI-generated outputs
-Comparison/evaluation table
-Analysis and observations
-Final selected prompting technique
-Refined/final prompt
-Engineering validation
+### Project Title
+**Website Intrusion Prediction Using Machine Learning**
 
-**Conclusion**
+### Problem Statement
+Traditional website intrusion detection systems may generate a large number of false alerts and may not effectively identify different types of malicious network activity. The proposed project aims to develop a machine learning-based intrusion prediction system that analyzes network traffic features and classifies connections as normal or malicious. Different machine learning algorithms can be compared to identify an effective model while reducing false-positive predictions.
 
-# OUTPUT
+### Engineering Objective
+To design a machine learning pipeline capable of:
+1. Collecting and preparing network traffic data.
+2. Performing data preprocessing and feature selection.
+3. Training multiple classification models.
+4. Comparing model performance.
+5. Reducing false-positive predictions.
+6. Identifying the most suitable model for intrusion prediction.
 
-# RESULT: The prompt for the above said problem executed successfully
+---
+
+## 3. Prompting Techniques Used
+
+| No. | Prompting Technique | Main Purpose |
